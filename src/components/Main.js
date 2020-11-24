@@ -5,10 +5,10 @@ import Modal from '../components/Modal.js';
 class Main extends Component {
     state = {
         isModalOpen: false,
-        /* results: [] */
+        results: []
     };
 
-    /* componentDidMount() {
+    componentDidMount() {
         fetch('https://randomuser.me/api/?results=3')
 		.then(res => res.json())
 		.then(data => {
@@ -17,7 +17,7 @@ class Main extends Component {
 				results: data.results
 			})
 		})
-    } */
+    }
 
     toggleState = () => {
         this.setState((state) => ({
