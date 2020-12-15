@@ -26,9 +26,6 @@ class Modal extends Component {
 	 };
 
 	componentDidMount() {
-
-		
-
 		window.addEventListener('keydown', this.onEscKeyDown, false);
 
 		setTimeout(
